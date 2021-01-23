@@ -1,0 +1,12 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: argo-ingress
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /guestbook
+        backend:
+          serviceName: prod-guestbook-ui-demo
+          servicePort: 80

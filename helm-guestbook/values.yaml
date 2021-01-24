@@ -21,7 +21,7 @@ ingress:
   path: /
   hosts:
     - guestbook.gridlan.com
-  tls: []
+  tls:
     - secretName: gridlan-com
       hosts:
         - guestbook.gridlan.com

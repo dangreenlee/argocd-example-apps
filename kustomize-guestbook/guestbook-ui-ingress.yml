@@ -7,10 +7,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - guestbook.gridlan.com
-    secretName: gridlan-com
+    - guestbook.expedient.com
+    secretName: expedient-com
   rules:
-  - host: guestbook.gridlan.com
+  - host: guestbook.expedient.com
     http:
       paths:
       - path: /

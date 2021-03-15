@@ -7,10 +7,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - guestbook.expedient.com
+    - guestbook-1.expedient.com
     secretName: expedient-com
   rules:
-  - host: guestbook.expedient.com
+  - host: guestbook-1.expedient.com
     http:
       paths:
       - path: /
